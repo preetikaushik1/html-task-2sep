@@ -69,9 +69,14 @@
     border-radius: 20px 35px;
     background-color: rgba(229, 29, 29, 0.8);
     padding: 50px 30px;
-    transform: skewY(2deg);
+    transform: skewY(2.5deg);
+    transform-origin: top right;
 
-
+}
+.popup-inner{
+    width: 100%;
+    float: left;
+    transform: rotate(-0.5deg);
 }
 .box1{
     width: 100%;
@@ -119,4 +124,7 @@
     color: rgb(229, 29, 29);
     border-radius: 12px;
     cursor: pointer;
+}
+.start-text:hover{
+   color: rgb(59, 55, 55);
 }
